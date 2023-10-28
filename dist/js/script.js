@@ -11,7 +11,7 @@ const rated = document.querySelector("main .container ul li .desc .rated");
 /* ********************************************* */
 /* ********************************************* */
 
-fetch(https://api.themoviedb.org/3/movie/popular?api_key=d6f048ecd2cf70348aa05876daef5ff8)
+fetch("https://api.themoviedb.org/3/movie/popular?api_key=d6f048ecd2cf70348aa05876daef5ff8")
   .then((response) => {
     return response.json();
   })
