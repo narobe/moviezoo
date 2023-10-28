@@ -11,7 +11,7 @@ const rated = document.querySelector("main .container ul li .desc .rated");
 /* ********************************************* */
 /* ********************************************* */
 const url =
-  "http://api.themoviedb.org/3/movie/popular?api_key=d6f048ecd2cf70348aa05876daef5ff8";
+  "https://api.themoviedb.org/3/movie/popular?api_key=d6f048ecd2cf70348aa05876daef5ff8";
 // const url = "./movie.json";
 
 let moviesById = [];
