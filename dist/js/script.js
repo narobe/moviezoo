@@ -10,13 +10,8 @@ const rated = document.querySelector("main .container ul li .desc .rated");
 /* ********************************************* */
 /* ********************************************* */
 /* ********************************************* */
-const url =
-  "https://api.themoviedb.org/3/movie/popular?api_key=d6f048ecd2cf70348aa05876daef5ff8";
-// const url = "./movie.json";
 
-let moviesById = [];
-
-fetch(url)
+fetch(https://api.themoviedb.org/3/movie/popular?api_key=d6f048ecd2cf70348aa05876daef5ff8)
   .then((response) => {
     return response.json();
   })
