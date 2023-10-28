@@ -1,0 +1,12 @@
+{
+  "name": "pst",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-post": "postcss src/style.css --dir dist/css --w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

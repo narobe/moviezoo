@@ -1,0 +1,7 @@
+:root {
+  --small-text: hsl(52, 16%, 46%);
+  --text: hsl(74, 49%, 70%);
+  --blue: hsl(230, 50%, 50%);
+  --blue-dark: hsl(229, 40%, 7%);
+  --white: hsl(0, 0%, 100%);
+}

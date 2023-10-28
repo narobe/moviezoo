@@ -1,0 +1,25 @@
+@font-face {
+  font-family: balsamiqsans;
+  src: url(../../Assets/fonts/BalsamiqSans-Bold.ttf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: balsamiqsans;
+  src: url(../../Assets/fonts/BalsamiqSans-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: HankenGrotesk;
+  src: url(../../Assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+  /* font-weight: 700; */
+}
+@font-face {
+  font-family: HankenGrotesk;
+  src: url(../../Assets/fonts/HankenGrotesk-Bold.ttf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: HankenGrotesk;
+  src: url(../../Assets/fonts/HankenGrotesk-Medium.ttf);
+  font-weight: 500;
+}

@@ -1,0 +1,83 @@
+.not-focus .active {
+  visibility: hidden;
+}
+main {
+  color: hsl(0, 0%, 85%);
+  & .container {
+    margin-left: 64px;
+    & ul {
+      list-style: none;
+      display: grid;
+      gap: 40px;
+      grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+      & li {
+        position: relative;
+        & .active {
+          font-family: "balsamiqsans", sans-serif;
+          position: absolute;
+          border: 2px solid rgb(255, 255, 255);
+          color: white;
+          padding: 0 4px;
+          font-size: 20px;
+          right: 0;
+          & div {
+            transform: rotate(-45deg);
+          }
+        }
+        & .not-adult .adult {
+          display: none;
+        }
+        & .adult .adult {
+          display: block;
+          background: red;
+          position: absolute;
+          right: 10px;
+          top: 0;
+          transform: translateY(-140%);
+          padding: 4px;
+          border-radius: 50%;
+          & span {
+            font-size: 12px;
+            display: inline-block;
+            margin-top: -100px;
+          }
+        }
+        & .desc {
+          position: relative;
+          padding: 10px;
+          background: var(--blue-dark);
+          & h3 {
+            margin-bottom: 6px;
+          }
+          & .rated.small-title {
+            display: flex;
+            margin-bottom: -10px;
+          }
+          & .rated *:last-child {
+            margin-left: 4px;
+          }
+          & .rated .span {
+            color: var(--text);
+            font-family: "balsamiqsans", sans-serif;
+            font-weight: 700;
+            /* position: absolute; */
+            font-size: 24px;
+            margin-left: 4px;
+            background: linear-gradient(
+              90deg,
+              hsl(66, 100%, 63%) 92%,
+              hsl(0, 0%, 70%) 8%
+            );
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+          }
+        }
+      }
+    }
+  }
+  & .img {
+    & img {
+      width: 100%;
+    }
+  }
+}

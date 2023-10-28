@@ -1,0 +1,12 @@
+footer {
+  margin-top: 10px;
+  color: hsl(0, 0%, 85%);
+  background: hsl(0, 0%, 10%);
+  grid-column: span 2;
+  font-size: 18px;
+  padding: 10px;
+}
+a {
+  color: hsl(0, 100%, 70%);
+  font-weight: 600;
+}
