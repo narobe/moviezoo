@@ -23,7 +23,7 @@ btmbtns.forEach((btn) => {
 /* ----_____----****&&&&****&&&&----_____---- */
 /* ----_____----****&&&&****&&&&----_____---- */
 mainCall("popular");
-mainCall("latest");
+//mainCall("latest");
 function mainCall(category) {
   fetch(
     `https://api.themoviedb.org/3/movie/${category}?api_key=d6f048ecd2cf70348aa05876daef5ff8`
