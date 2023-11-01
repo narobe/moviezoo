@@ -22,6 +22,7 @@ btmbtns.forEach((btn) => {
 /* ----_____----****&&&&****&&&&----_____---- */
 /* ----_____----****&&&&****&&&&----_____---- */
 /* ----_____----****&&&&****&&&&----_____---- */
+mainCall("popular");
 mainCall("latest");
 function mainCall(category) {
   fetch(
@@ -92,7 +93,7 @@ function mainCall(category) {
         });
     })
     .catch(() => {
-      noInternet();
+      // noInternet();
     });
 }
 
