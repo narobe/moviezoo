@@ -208,6 +208,6 @@ function pcmp(id) {
 /* ----_____----****&&&&****&&&&----_____---- */
 function noInternet() {
   setTimeout(() => {
-    main.parentElement.innerHTML = `<h2 style="margin-left:20px;">Please connect to internet!<h2>`;
+    main.innerHTML = `<h2 style="margin-left:20px;">Please connect to internet!<h2>`;
   }, 100);
 }
