@@ -4,7 +4,7 @@ aside {
   width: 240px;
   & .container {
     background: var(--blue-dark);
-    padding: 30px 10px;
+    padding: 30px 10px 100px;
     position: sticky;
     top: 0;
     max-width: 240px;
@@ -37,8 +37,13 @@ aside {
   }
   & h3 {
     color: hsl(120, 70%, 75%);
+    font-style: italic;
     font-weight: normal;
     margin-bottom: 18px;
+  }
+  & .description {
+    margin: 0;
+    margin-bottom: 0;
   }
   & .desc .rated.small-title {
     display: flex;
@@ -70,6 +75,30 @@ aside {
       font-size: 14px;
       font-family: "hankengrotesk";
       line-height: 1.1;
+    }
+  }
+}
+@media (max-width: 700px) {
+  aside {
+    width: 50vw;
+    & .container {
+      & .small-title {
+        font-size: 14px;
+      }
+      & .small-title li {
+        font-size: 14px;
+      }
+      margin-right: 2vw;
+      .desc div {
+        margin-bottom: 2px;
+      }
+      .desc p {
+        color: hsl(0, 0%, 76%);
+        font-size: 13px;
+      }
+      .pcmp li {
+        font-size: 13px;
+      }
     }
   }
 }
