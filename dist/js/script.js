@@ -10,7 +10,7 @@ const rated = document.querySelector("main .container ul li .desc .rated");
 /* ----_____----****&&&&****&&&&----_____---- */
 /* ----_____----****&&&&****&&&&----_____---- */
 btmbtns.forEach((btn) => {
-  console.log(btn);
+  // console.log(btn);
   btn.addEventListener("click", (e) => {
     btmbtns.forEach((btx) => btx.classList.remove("active"));
     e.target.classList.add("active");
@@ -22,7 +22,7 @@ btmbtns.forEach((btn) => {
 /* ----_____----****&&&&****&&&&----_____---- */
 /* ----_____----****&&&&****&&&&----_____---- */
 /* ----_____----****&&&&****&&&&----_____---- */
-mainCall("popular");
+mainCall("latest");
 function mainCall(category) {
   fetch(
     `https://api.themoviedb.org/3/movie/${category}?api_key=d6f048ecd2cf70348aa05876daef5ff8`
